@@ -31,4 +31,14 @@ class Admin extends Controller
         }
         return json($res);
     }
+    /**
+     * 退出
+     *
+     * @return void
+     */
+    public function logout(){
+        Session::delete('adminid');
+        return $this->redirect('Admin/login');
+
+    }
 }
