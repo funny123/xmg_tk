@@ -19,10 +19,10 @@ class Admin extends Controller
      */
     public function login_check()
     {
-        $username = Request::post('username');
+        $account = Request::post('account');
         $password = Request::post('password');
-        if ($username == 'admin' && $password == '123123') {
-            Session::set('adminid',$username);
+        if ($account == 'admin' && $password == '123123') {
+            Session::set('adminid',$account);
             $res['code'] = 200;
             $res['msg'] = '登录成功';
         } else {
