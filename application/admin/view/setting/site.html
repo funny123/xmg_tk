@@ -22,7 +22,7 @@
             网站设置
         </li>
         <li>
-            用户管理
+            淘宝客设置
         </li>
         <li>
             权限分配
@@ -106,98 +106,32 @@
                     </div>
                 </div>
                 <div class="layui-form-item">
+                    <button class="layui-btn" lay-filter="sub" lay-submit="">
+                        提交
+                    </button>
+                </div>
+            </form>
+        </div>
+        <!-- 内容2 -->
+        <div class="layui-tab-item">
+            <form action="" class="layui-form layui-form-pane">
+                <div class="layui-form-item">
                     <label class="layui-form-label">
-                        单行选择框
+                        appkey
                     </label>
                     <div class="layui-input-block">
-                        <select lay-filter="aihao" name="interest">
-                            <option value="">
-                            </option>
-                            <option value="0">
-                                写作
-                            </option>
-                            <option selected="" value="1">
-                                阅读
-                            </option>
-                            <option value="2">
-                                游戏
-                            </option>
-                            <option value="3">
-                                音乐
-                            </option>
-                            <option value="4">
-                                旅行
-                            </option>
-                        </select>
+                        <input autocomplete="off" class="layui-input" lay-verify="required" name="title" placeholder="请输入标题" type="text">
+                        </input>
                     </div>
                 </div>
                 <div class="layui-form-item">
                     <label class="layui-form-label">
-                        行内选择框
+                        appsecret
                     </label>
-                    <div class="layui-input-inline">
-                        <select name="quiz1">
-                            <option value="">
-                                请选择省
-                            </option>
-                            <option selected="" value="浙江">
-                                浙江省
-                            </option>
-                            <option value="你的工号">
-                                江西省
-                            </option>
-                            <option value="你最喜欢的老师">
-                                福建省
-                            </option>
-                        </select>
-                    </div>
-                    <div class="layui-input-inline">
-                        <select name="quiz2">
-                            <option value="">
-                                请选择市
-                            </option>
-                            <option value="杭州">
-                                杭州
-                            </option>
-                            <option disabled="" value="宁波">
-                                宁波
-                            </option>
-                            <option value="温州">
-                                温州
-                            </option>
-                            <option value="温州">
-                                台州
-                            </option>
-                            <option value="温州">
-                                绍兴
-                            </option>
-                        </select>
-                    </div>
-                    <div class="layui-input-inline">
-                        <select name="quiz3">
-                            <option value="">
-                                请选择县/区
-                            </option>
-                            <option value="西湖区">
-                                西湖区
-                            </option>
-                            <option value="余杭区">
-                                余杭区
-                            </option>
-                            <option value="拱墅区">
-                                临安市
-                            </option>
-                        </select>
-                    </div>
-                </div>
-                <div class="layui-form-item layui-form-text">
                     <div class="layui-input-block">
-                        <textarea class="layui-textarea" id="LAY_demo_editor" placeholder="请输入内容">
-                        </textarea>
+                        <input autocomplete="off" class="layui-input" lay-verify="required" name="username" placeholder="请输入" type="text">
+                        </input>
                     </div>
-                    <label class="layui-form-label">
-                        请输入内容
-                    </label>
                 </div>
                 <div class="layui-form-item">
                     <button class="layui-btn" lay-filter="sub" lay-submit="">
@@ -205,9 +139,6 @@
                     </button>
                 </div>
             </form>
-        </div>
-        <div class="layui-tab-item">
-            内容2
         </div>
         <div class="layui-tab-item">
             内容3
